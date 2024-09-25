@@ -19,9 +19,11 @@ function App() {
           {/* /?variant=most_liked */}
           <PageLayout>Home</PageLayout>
         </Route>
+
         <Route path="/profile/:nick">
           <PageLayout>Profile page</PageLayout>
         </Route>
+
         <Route path="/detail/:twitId">
           <PageLayout>Twit detail</PageLayout>
         </Route>
